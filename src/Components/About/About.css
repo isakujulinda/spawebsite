@@ -46,7 +46,7 @@
 
 @media (max-width: 768px) {
     .about {
-        flex-direction: column;
+        flex-direction: column-reverse;
         text-align: center;
         gap: 20px;
     }
@@ -60,4 +60,7 @@
         margin: 10px auto;
     }
 
+    .about p {
+        font-size: 18px;
+    }
 }

@@ -56,4 +56,11 @@
         font-size: 28px;
         margin: 10px auto;
     }
+     .section1 p {
+        color: #555;
+        margin-bottom: 15px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 1.6;
+    }
 }

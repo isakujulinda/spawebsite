@@ -11,31 +11,36 @@
     flex: 1 1 calc(33.333% - 20px);
     position: relative;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 12px;
     min-width: 280px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .service img {
     width: 100%;
     height: 350px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 12px;
     display: block;
+    transition: transform 0.6s ease;
+}
+
+.service:hover img {
+    transform: scale(1.08);
 }
 
 .caption {
-    border-radius: 10px;
+    border-radius: 12px;
     position: absolute;
     inset: 0;
-    background: linear-gradient(rgba(60, 60, 60, 0.7), rgba(120, 120, 120, 0.6));
+    background: rgba(0, 0, 0, 0.45);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     color: #fff;
-    cursor: pointer;
     opacity: 0;
-    transition: 0.4s ease-in-out;
+    transition: opacity 0.4s ease;
 }
 
 .service:hover .caption {
@@ -43,8 +48,34 @@
 }
 
 .caption img {
-    width: 100%;
-    margin-bottom: 8px;
+    width: 100px;
+    margin-bottom: 10px;
+    opacity: 0;
+    transform: translateY(-15px);
+    transition: all 0.5s ease;
+}
+
+.service:hover .caption img {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.caption p {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    opacity: 0;
+    transform: translateY(15px);
+    transition: all 0.5s ease 0.1s;
+}
+
+.service:hover .caption p {
+    opacity: 1;
+    transform: translateY(0);
+}
+.service:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 25px rgba(124, 111, 87, 0.6);
 }
 
 @media (max-width: 1024px) {
@@ -64,5 +95,13 @@
 
     .service img {
         height: 250px;
+    }
+
+    .caption img {
+        width: 50px;
+    }
+
+    .caption p {
+        font-size: 18px;
     }
 }

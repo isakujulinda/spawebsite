@@ -8,6 +8,7 @@ import Navbar from "../../Components/Navbar/Navbar"
 import Services from "../../Components/Services/Services"
 import Testimonials from "../../Components/Testimonials/Testimonials"
 import Title from "../../Components/Title/Title"
+import HartaHome from "../../Components/HartaHome/HartaHome"
 
 
 
@@ -17,7 +18,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <div className="container">
-        <Title subTitle='Shërbimet tona'  title='Cfarë ne ofrojmë' />
+        <Title subTitle='Shërbimet tona'  title='Çfarë ne ofrojmë' />
         <Services />
         <About />
         <Title  title='Galeria' />
@@ -25,8 +26,8 @@ const Home = () => {
       <Gallery />
       <Title  title='Vlerësime nga klientet' />
       <Testimonials />
-      <Title title='Na Kontaktoni' />
-      <Contact />
+      <HartaHome />
+      {/* <Contact /> */}
       <Footer />
     </div>
   )

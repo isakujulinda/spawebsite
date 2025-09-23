@@ -1,7 +1,7 @@
 import React from 'react';
-import './HartaKontakt.css';
+import './HartaHome.css';
 
-function HartaKontakt() {
+function HartaHome() {
   return (
     <div className="map-container">
       <iframe
@@ -16,4 +16,4 @@ function HartaKontakt() {
   );
 }
 
-export default HartaKontakt;
+export default HartaHome;

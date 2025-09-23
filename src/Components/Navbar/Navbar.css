@@ -62,7 +62,6 @@ nav li a:hover {
     z-index: 1002;
 }
 
-/* ===== DESKTOP ===== */
 .desktop-nav {
     display: flex;
 }
@@ -71,44 +70,46 @@ nav li a:hover {
     display: none;
 }
 
-/* ===== MOBILE ===== */
 @media (max-width: 768px) {
+    .logo {
+        height: 100px;
+    }
+
     .menu-toggle {
         display: block;
     }
 
     .desktop-nav {
         display: none;
-        /* hide normal menu on mobile */
     }
 
     .mobile-overlay {
         display: none;
     }
 
-    .mobile-overlay.active {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        background: rgba(51, 51, 51, 0.95);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 25px;
-        z-index: 1001;
-    }
+        .mobile-overlay.active {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 125vh;
+            background: rgba(51, 51, 51, 0.95);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            z-index: 1001;
+        }
 
     .mobile-overlay li a {
-        font-size: 22px;
+        font-size: 35px;
         color: white;
     }
 
     .mobile-overlay .nav-btn a {
         padding: 12px 24px;
-        font-size: 18px;
+        font-size: 35px;
         border-radius: 25px;
     }
 }
