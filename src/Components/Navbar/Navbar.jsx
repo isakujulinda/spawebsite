@@ -17,26 +17,27 @@ const Navbar = () => {
     <nav className={`container ${sticky ? "dark-nav" : ""}`}>
       <img src={logo} alt="Logo" className="logo" />
 
+      {/* Hamburger / Close icon (only visible on mobile) */}
       <div className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
-        ☰
+        {menuOpen ? "✖" : "☰"}
       </div>
 
-      <ul className={menuOpen ? "active" : ""}>
-        <li>
-          <Link to="/">Krye</Link>
-        </li>
-        <li>
-          <Link to="/rreth">Rreth Nesh</Link>
-        </li>
-        <li>
-          <Link to="/sherbime">Shërbimet</Link>
-        </li>
-        <li>
-          <Link to="/blog">Blog</Link>
-        </li>
-        <li className="nav-btn">
-          <Link to="/kontakto">Kontakto Tani</Link>
-        </li>
+      {/* Desktop menu */}
+      <ul className="desktop-nav">
+        <li><Link to="/">Krye</Link></li>
+        <li><Link to="/rreth">Rreth Nesh</Link></li>
+        <li><Link to="/sherbime">Shërbimet</Link></li>
+        <li><Link to="/blog">Blog</Link></li>
+        <li className="nav-btn"><Link to="/kontakto">Kontakto Tani</Link></li>
+      </ul>
+
+      {/* Mobile overlay menu */}
+      <ul className={menuOpen ? "mobile-overlay active" : "mobile-overlay"}>
+        <li><Link to="/" onClick={() => setMenuOpen(false)}>Krye</Link></li>
+        <li><Link to="/rreth" onClick={() => setMenuOpen(false)}>Rreth Nesh</Link></li>
+        <li><Link to="/sherbime" onClick={() => setMenuOpen(false)}>Shërbimet</Link></li>
+        <li><Link to="/blog" onClick={() => setMenuOpen(false)}>Blog</Link></li>
+        <li className="nav-btn"><Link to="/kontakto" onClick={() => setMenuOpen(false)}>Kontakto Tani</Link></li>
       </ul>
     </nav>
   );
