@@ -54,6 +54,11 @@ nav li a:hover {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
+.container {
+    padding-left: 30px; 
+   padding-right: 30px; 
+}
+
 .menu-toggle {
     display: none;
     font-size: 32px;

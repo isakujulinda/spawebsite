@@ -38,7 +38,6 @@ export default function BlogModal() {
   const openModal = (id) => setModal(id);
   const closeModal = () => setModal(null);
 
-  // Gjej blogun aktiv sipas id
   const activeBlog = blogs.find((blog) => blog.id === modal);
 
   return (

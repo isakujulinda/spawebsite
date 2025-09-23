@@ -17,12 +17,11 @@ const Navbar = () => {
     <nav className={`container ${sticky ? "dark-nav" : ""}`}>
       <img src={logo} alt="Logo" className="logo" />
 
-      {/* Hamburger / Close icon (only visible on mobile) */}
       <div className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
         {menuOpen ? "✖" : "☰"}
       </div>
 
-      {/* Desktop menu */}
+
       <ul className="desktop-nav">
         <li><Link to="/">Krye</Link></li>
         <li><Link to="/rreth">Rreth Nesh</Link></li>
@@ -31,7 +30,6 @@ const Navbar = () => {
         <li className="nav-btn"><Link to="/kontakto">Kontakto Tani</Link></li>
       </ul>
 
-      {/* Mobile overlay menu */}
       <ul className={menuOpen ? "mobile-overlay active" : "mobile-overlay"}>
         <li><Link to="/" onClick={() => setMenuOpen(false)}>Krye</Link></li>
         <li><Link to="/rreth" onClick={() => setMenuOpen(false)}>Rreth Nesh</Link></li>

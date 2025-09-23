@@ -5,9 +5,9 @@ function HeroK() {
   return (
     <div className='herok container'> 
           <div className="herok-text">
-              <h1>Përjetoni magjinë e AURA SPA</h1>
-              <p>Mirë se vini në një botë ku mirëqenia takon mrekullinë.
-Zbuloni bukurinë e Aura Spa dhe një etos që përfshin mirëqenien nga e gjithë bota.</p>
+              <h1>Kontakto me Aura Spa</h1>
+              <p>Hapi i parë drejt relaksit fillon këtu.
+Kontaktoni me ne për një përvojë të paharrueshme.</p>
           </div>
           </div>
   )
