@@ -1,18 +1,16 @@
 import React from 'react'
-import './Hero.css'
-import { Link } from "react-router-dom";
+import './HeroK.css'
 
-function Hero() {
+function HeroK() {
   return (
-    <div className='hero container'> 
-          <div className="hero-text">
+    <div className='herok container'> 
+          <div className="herok-text">
               <h1>Përjetoni magjinë e AURA SPA</h1>
               <p>Mirë se vini në një botë ku mirëqenia takon mrekullinë.
 Zbuloni bukurinë e Aura Spa dhe një etos që përfshin mirëqenien nga e gjithë bota.</p>
-             <Link to="/kontakto" className="btn">Rezervo tani</Link>
-      </div>
-    </div>
+          </div>
+          </div>
   )
 }
 
-export default Hero
+export default HeroK

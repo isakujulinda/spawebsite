@@ -3,6 +3,7 @@ import './Footer.css'
 import fbIcon from '../../assets/images/facebook.png'
 import igIcon from '../../assets/images/instagram.png'
 import liIcon from '../../assets/images/linkedin.png'
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -21,17 +22,17 @@ const Footer = () => {
 
         {}
         <div className="footer-col">
-          <h4>Shpejt</h4>
+          <h4>Menu</h4>
           <ul>
-            <li><a href="#">Rreth Nesh</a></li>
-            <li><a href="#">Shërbimet</a></li>
-            <li><a href="#">Kontakt</a></li>
+            <li><Link to="/rreth">Rreth Nesh</Link></li>
+            <li><Link to="/sherbime">Shërbimet</Link></li>
+            <li><Link to="/kontakto">Kontakt</Link></li>
           </ul>
         </div>
 
         {}
         <div className="footer-col">
-          <h4>Na gjeni</h4>
+          <h4>Kontakte</h4>
           <ul>
             <li>Email: contact@auraspa.al</li>
             <li>Tel: +355 68 123 4567</li>

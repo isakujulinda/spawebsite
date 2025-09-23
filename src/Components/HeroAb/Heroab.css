@@ -1,0 +1,28 @@
+.heroab{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(60, 60, 60, 0.7), rgba(60, 60, 60, 0.7)),
+            url('../../assets/images/kontakt.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heroab-text{
+    text-align: center;
+    width: 800px;
+}
+.heroab-text h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.heroab-text p{
+    /* max-width: 700px; */
+    margin: 10 auto 20px;
+    line-height: 1.4;
+    text-align: center;
+    font-size: 34px;
+}

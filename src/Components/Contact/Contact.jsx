@@ -33,7 +33,7 @@ function Contact() {
   return (
     <div className='contact'>
       <div className="contact-col">
-        <h3>Na dërgo një mesazh</h3>
+        <h3>AURA SPA</h3>
         <p>
           Mos hezitoni të na kontaktoni përmes formularit më poshtë ose duke përdorur informacionet tona të kontaktit.
           Çdo pyetje, sugjerim apo rezervim është i mirëpritur – ne jemi këtu për të kujdesur për mirëqenien tuaj.

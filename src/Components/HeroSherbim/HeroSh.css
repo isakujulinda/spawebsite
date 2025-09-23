@@ -1,0 +1,29 @@
+.herosh{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(60, 60, 60, 0.7), rgba(120, 120, 120, 0.6)),
+            url('../../assets/images/sherbim1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.herosh-text{
+    text-align: center;
+    max-width: 800px;
+}
+
+.herosh-text h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.herosh-text p{
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+    font-size: 30px;
+}

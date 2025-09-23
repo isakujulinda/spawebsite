@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import logo from "../../assets/images/aura (2).png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
@@ -16,19 +17,25 @@ const Navbar = () => {
     <nav className={`container ${sticky ? "dark-nav" : ""}`}>
       <img src={logo} alt="Logo" className="logo" />
 
-      {}
       <div className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
         ☰
       </div>
 
-      {}
       <ul className={menuOpen ? "active" : ""}>
-        <li>Home</li>
-        <li>About Us</li>
-        <li>Services</li>
-        <li>Reviews</li>
         <li>
-          <button className="btn">Contact Us</button>
+          <Link to="/">Krye</Link>
+        </li>
+        <li>
+          <Link to="/rreth">Rreth Nesh</Link>
+        </li>
+        <li>
+          <Link to="/sherbime">Shërbimet</Link>
+        </li>
+        <li>
+          <Link to="/blog">Blog</Link>
+        </li>
+        <li className="nav-btn">
+          <Link to="/kontakto">Kontakto Tani</Link>
         </li>
       </ul>
     </nav>

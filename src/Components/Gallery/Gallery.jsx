@@ -14,7 +14,6 @@ const Gallery = () => {
               <img src={gallery_3} alt="" />
               <img src={gallery_4} alt="" />
           </div>
-      <button className='btn dark-btn'>Shiko me shume</button>
     </div>
   )
 }

@@ -1,0 +1,29 @@
+.herok {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(60, 60, 60, 0.7), rgba(120, 120, 120, 0.6)),
+        url('../../assets/images/rreth.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.herok-text {
+    text-align: center;
+    max-width: 800px;
+}
+
+.herok-text h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.herok-text p {
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}
