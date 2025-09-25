@@ -12,7 +12,7 @@ const About = () => {
       </div>
 
       <div className='about-right'>
-        {/* <h3>RRETH NESH</h3> */}
+        <h3>RRETH NESH</h3>
         <h2>AURA SPA</h2>
         <p>
           Në Aura Spa, ne besojmë se relaksi nuk është luks, por nevojë. Kemi krijuar një ambient 
