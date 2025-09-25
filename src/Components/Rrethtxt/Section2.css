@@ -2,8 +2,10 @@
     margin: 100px auto;
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 90%;
     gap: 40px;
+    max-width: 1400px;
 }
 
 .section2-left {
@@ -13,95 +15,72 @@
 
 .section2 h3 {
     font-weight: 600;
-    font-size: 26px;
+    font-size: 28px;
     color: #111;
-    text-align: center;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .section2 p {
-    color: #555;
+    color: #444;
     margin-bottom: 20px;
-    line-height: 1.6;
-    text-align: center;
-}
-
-.features {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-
-.features li {
-    margin-bottom: 20px;
-}
-
-.features strong {
-    display: block;
-    font-size: 16px;
-    color: #222;
-    margin-bottom: 5px;
-    text-align: center;
-}
-
-.features span {
-    color: #555;
-    font-size: 15px;
-    line-height: 1.5;
+    line-height: 1.8;
+    font-size: 17px;
     text-align: center;
 }
 
 .section2-right {
     flex-basis: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .section2-img {
     width: 100%;
-    max-width: 500px;
-    border-radius: 12px;
+    max-width: 550px;
+    border-radius: 14px;
     display: block;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+@media (min-width: 1440px) {
+    .section2 {
+        max-width: 1600px;
+        gap: 80px;
+    }
+
+    .section2 h3 {
+        font-size: 34px;
+    }
+
+    .section2 p {
+        font-size: 19px;
+        line-height: 1.9;
+    }
+
+    .section2-img {
+        max-width: 650px;
+    }
 }
 
 @media (max-width: 768px) {
     .section2 {
         flex-direction: column-reverse;
-        /* flex-direction: column; */
         text-align: center;
         gap: 20px;
     }
 
-    .features li {
-        text-align: left;
-        max-width: 400px;
-        margin: 0 auto 20px;
+    .section2 h3 {
+        text-align: center;
+    }
+
+    .section2 p {
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.6;
     }
 
     .section2-img {
         max-width: 100%;
     }
-    .section2 p {
-        color: #555;
-        margin-bottom: 15px;
-        text-align: center;
-        font-size: 18px;
-        line-height: 1.6;
-     }
-    .features span {
-        color: #555;
-        font-size: 18px;
-        line-height: 1.5;
-     }
-     .features li {
-         margin-bottom: 20px;
-         text-align: center;
-     }
-    
-     .features strong {
-         display: block;
-         font-size: 18px;
-         color: #222;
-         margin-bottom: 5px;
-         text-align: center;
-     }
 }

@@ -8,34 +8,11 @@ function Section2() {
       <div className="section2-left">
         <h3>Çfarë na dallon nga të tjerët</h3>
         <p>
-          Në Aura Spa, ne besojmë se kujdesi për trupin dhe shpirtin duhet të jetë
-          një përvojë e veçantë dhe e sigurt. Ajo që na dallon është përkushtimi
-          ynë i vazhdueshëm ndaj cilësisë, higjienës dhe relaksit total që u
-          ofrojmë klientëve tanë.
+          Në Aura Spa, kujdesi për trupin dhe shpirtin nuk është thjesht një shërbim, por një përvojë unike dhe e sigurt. Ne jemi të përkushtuar të ofrojmë cilësi të lartë, higjienë maksimale dhe relaks total për çdo klient që na zgjedh.
         </p>
+        <br />
+        <p>Atmosfera jonë e qetë, shërbimet e personalizuara, standardet e rrepta të pastërtisë dhe stafi ynë i trajnuar profesionalisht bëjnë që çdo vizitë të jetë e veçantë. Me përkushtim në çdo detaj, synimi ynë është të krijojmë një hapësirë ku ndiheni të relaksuar, të rigjeneruar dhe në harmoni me veten.</p>
 
-        <ul className="features">
-          <li>
-            <strong>Ambient unik dhe i qetë</strong>
-            <span>Krijuar për t’ju larguar nga zhurma e përditshme.</span>
-          </li>
-          <li>
-            <strong>Shërbime të personalizuara</strong>
-            <span>Çdo trajtim përshtatet sipas nevojave tuaja.</span>
-          </li>
-          <li>
-            <strong>Standard i lartë higjiene</strong>
-            <span>Çdo pajisje dhe hapësirë pastrohet dhe dezinfektohet rregullisht.</span>
-          </li>
-          <li>
-            <strong>Staf i trajnuar profesionalisht</strong>
-            <span>Teknikët tanë ndjekin trajnime të vazhdueshme për të ofruar eksperiencën më të mirë.</span>
-          </li>
-          <li>
-            <strong>Cilësi & përkushtim</strong>
-            <span>Në çdo detaj dhe atmosferë të ngrohtë që krijojmë.</span>
-          </li>
-        </ul>
       </div>
 
       <div className="section2-right">

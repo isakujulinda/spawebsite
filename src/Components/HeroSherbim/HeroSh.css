@@ -1,7 +1,7 @@
 .herosh{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(60, 60, 60, 0.7), rgba(120, 120, 120, 0.6)),
+    background: linear-gradient(rgb(0 0 0 / 59%), rgb(0 0 0 / 43%)),
             url('../../assets/images/sherbim1.jpg');
     background-size: cover;
     background-position: center;
