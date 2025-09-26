@@ -27,3 +27,29 @@
     line-height: 1.4;
     /* font-size: 30px; */
 }
+
+@media (min-width: 1200px) {
+    .herosh-text h1 {
+        font-size: 64px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+
+    .herosh-text p {
+        font-size: 20px;
+        line-height: 1.6;
+        max-width: 850px;
+
+    }
+}
+
+@media (min-width: 1600px) {
+    .herosh-text h1 {
+        font-size: 72px;
+    }
+
+    .herosh-text p {
+        font-size: 22px;
+        max-width: 900px;
+    }
+}
