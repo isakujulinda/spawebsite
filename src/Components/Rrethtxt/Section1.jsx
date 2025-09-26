@@ -13,7 +13,7 @@ function Section1() {
               <br />
               <p>Aura Spa është një destinacion i dedikuar për relaks dhe mirëqenie, i vendosur në zemër të Tiranës. Me një staf profesionist dhe përvojë shumëvjeçare, ne kemi krijuar një hapësirë ku qetësia, kujdesi dhe harmonia bashkohen për të ofruar përvoja të paharrueshme.</p>
               <br />
-              <p>Që prej fillimit, Aura Spa ka mirëpritur një klientelë të larmishme – nga profesionistë të zënë, deri te vizitorë që kërkojnë çlodhje dhe rigjenerim. Çdo shërbim është menduar me kujdes për të përmbushur nevojat e secilit klient, duke ofruar një standard të lartë cilësie dhe përkujdesjeje.</p>
+              <p>Që prej fillimit, Aura Spa ka mirëpritur një klientelë të larmishme – Vizitorë që kërkojnë çlodhje dhe rigjenerim. Çdo shërbim është menduar me kujdes për të përmbushur nevojat e secilit klient, duke ofruar një standard të lartë cilësie dhe përkujdesjeje.</p>
               <br />
               <p>Pavarësisht nëse zgjidhni një masazh relaksues apo një trajtim luksoz, në Aura Spa do të gjeni gjithmonë shërbimin më të mirë dhe një eksperiencë që tejkalon pritshmëritë.</p>
       </div>
