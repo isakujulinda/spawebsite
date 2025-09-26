@@ -35,7 +35,7 @@ function Contact() {
       <div className="contact-col">
         <h3>AURA SPA</h3>
         <p>
-          Mos hezitoni të na kontaktoni përmes formularit më poshtë ose duke përdorur informacionet tona të kontaktit.
+          Mos hezitoni të na kontaktoni përmes formularit ose duke përdorur menyrat tona të kontaktit.
           Çdo pyetje, sugjerim apo rezervim është i mirëpritur – ne jemi këtu për të kujdesur për mirëqenien tuaj.
         </p>
         <ul>

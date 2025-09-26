@@ -43,6 +43,26 @@
     line-height: 1.6;
 }
 
+@media (min-width: 1200px) {
+    .about {
+        max-width: 1200px;
+        margin: 100px auto;
+        gap: 60px;
+    }
+
+    .about-img {
+        max-width: 480px;
+    }
+
+    .about-right h2 {
+        font-size: 40px;
+    }
+
+    .about p {
+        font-size: 18px;
+    }
+}
+
 
 @media (max-width: 768px) {
     .about {

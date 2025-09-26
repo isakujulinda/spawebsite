@@ -25,7 +25,7 @@ export default function BlogModal() {
       id: 3,
       image: blog3,
       title: "Epilimi me Lazer",
-      text: "EEpilim me Lazer është një pjesë e rëndësishme e rutinës së kujdesit për lëkurën, por kur bëhet në mënyrë profesionale, rezultatet janë shumë më të mira. Në këtë postim do të diskutojmë procesin e epilimit me lazer, përfitimet e tij dhe si ndikon në shëndetin e lëkurës suaj."
+      text: "Epilim me Lazer është një pjesë e rëndësishme e rutinës së kujdesit për lëkurën, por kur bëhet në mënyrë profesionale, rezultatet janë shumë më të mira. Në këtë postim do të diskutojmë procesin e epilimit me lazer, përfitimet e tij dhe si ndikon në shëndetin e lëkurës suaj."
     },
     {
       id: 4,
