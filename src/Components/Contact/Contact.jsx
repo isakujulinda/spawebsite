@@ -33,15 +33,14 @@ function Contact() {
   return (
     <div className='contact'>
       <div className="contact-col">
-        <h3>AURA SPA</h3>
+        <h3>Lorem ipsum dolor</h3>
         <p>
-          Mos hezitoni të na kontaktoni përmes formularit ose duke përdorur menyrat tona të kontaktit.
-          Çdo pyetje, sugjerim apo rezervim është i mirëpritur – ne jemi këtu për të kujdesur për mirëqenien tuaj.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt excepturi sint doloremque esse, porro molestias voluptatum totam impedit maiores.
         </p>
         <ul>
-          <li><img src={mail_icon} alt="Email" /> contact@auraspa.al</li>
-          <li><img src={phone_icon} alt="Telefon" /> +355 68 123 4567</li>
-          <li><img src={location_icon} alt="Adresa" /> Rruga e Hoxha Tasim, Tiranë, Shqipëri</li>
+          <li><img src={mail_icon} alt="Email" /> contact@gmail.al</li>
+          <li><img src={phone_icon} alt="Telefon" /> +355 12 34 567</li>
+          <li><img src={location_icon} alt="Adresa" /> Tiranë, Shqipëri</li>
         </ul>
       </div>
 

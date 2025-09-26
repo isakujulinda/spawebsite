@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import about_img from '../../assets/images/about.jpg'
+// import about_img from '../../assets/images/about.jpg'
 
 const About = () => {
 
@@ -8,17 +8,14 @@ const About = () => {
   return (
     <div className='about'>
       <div className="about-left">
-        <img src={about_img} alt="About Aura Spa" className='about-img' />
+        <img src="https://placehold.co/400x600/png" alt="About Aura Spa" className='about-img' />
       </div>
 
       <div className='about-right'>
-        <h3>RRETH NESH</h3>
-        <h2>AURA SPA</h2>
+        {/* <h3>RRETH NESH</h3> */}
+        <h2>Lorem ipsum dolor</h2>
         <p>
-          Në Aura Spa, ne besojmë se relaksi nuk është luks, por nevojë. Kemi krijuar një ambient 
-          ku qetësia, kujdesi dhe harmonia bashkohen për të të ofruar momente të paharrueshme. 
-          Çdo shërbim është menduar për të rigjeneruar trupin dhe për të sjellë qetësi mendore, 
-          që ti të ndihesh më i freskët, më energjik dhe më në paqe me veten.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi itaque, odit quibusdam magni possimus numquam quaerat qui deserunt aspernatur! Perspiciatis soluta commodi ab iste sequi officia molestiae cumque reiciendis in?
         </p>
       </div>
 

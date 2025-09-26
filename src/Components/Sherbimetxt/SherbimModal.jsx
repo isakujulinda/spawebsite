@@ -52,7 +52,7 @@ const SherbimModal = ({ paketaTitull, onClose }) => {
         <div className="modal-container">
             <div className="modal-overlay" onClick={onClose}></div>
             <div className="modal-content">
-                <h2>Rezervo shërbimin: <br/>{paketaTitull}</h2>
+                <h2>Lorem, ipsum.: <br/>{paketaTitull}</h2>
                 <form onSubmit={handleSubmit}>
                     <label>Emri dhe Mbiemri</label>
                     <input type="text" name='emri' placeholder='Shkruani emrin tuaj' required />
@@ -60,7 +60,7 @@ const SherbimModal = ({ paketaTitull, onClose }) => {
                     <label>Numri i Telefonit</label>
                     <input type="tel" name='telefon' placeholder='Vendosni numrin tuaj të telefonit' required />
                     
-                    <label>Zgjidhni orarin</label>
+                    <label>Orari</label>
                     <select name="orari" required>
                         {timeOptions.map((option, index) => (
                             <option key={index} value={option}>{option}</option>

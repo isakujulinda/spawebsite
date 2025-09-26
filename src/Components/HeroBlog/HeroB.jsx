@@ -5,9 +5,9 @@ function HeroB() {
   return (
     <div className='herob container'>
       <div className="herob-text">
-        <h1>Blogu ynë</h1>
-        <p>Zbuloni këshilla, ide dhe frymëzim mbi relaksin, bukurinë dhe kujdesin personal. Artikujt tanë janë menduar për t’ju udhëhequr drejt një jete më të shëndetshme dhe më të balancuar.</p>
-      </div>
+        <h1>Lorem, ipsum dolor.</h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus omnis ad eius corrupti nemo sint?</p>
+          </div>
       
     </div>
   )

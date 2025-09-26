@@ -3,10 +3,10 @@ import { useRef } from 'react';
 import './Testimonials.css'
 import next_icon from '../../assets/images/next-btn.png'
 import back_icon from '../../assets/images/before-btn.png'
-import user_1 from '../../assets/images/8.png'
-import user_2 from '../../assets/images/9.png'
-import user_3 from '../../assets/images/10.png'
-import user_4 from '../../assets/images/11.png'
+// import user_1 from '../../assets/images/8.png'
+// import user_2 from '../../assets/images/9.png'
+// import user_3 from '../../assets/images/10.png'
+// import user_4 from '../../assets/images/11.png'
 
 function Testimonials() {
 
@@ -39,49 +39,49 @@ function Testimonials() {
                   <li>
                       <div className="slide">
                           <div className="user-info">
-                              <img src={user_1} alt="" />
+                              <img src="https://placehold.co/400x400/png" alt="" />
                               <div>
-                                  <h3>Albana Kola</h3>
-                                  <span>Arkitekte</span>
+                                  <h3>Lorem, ipsum.</h3>
+                                  <span>Lorem.</span>
                               </div>
                           </div>
-                          <p>"Një eksperiencë relaksi që më ndihmoi të shkëputem nga rutina e përditshme. Ambienti është i qetë dhe stafi shumë profesionist. Do të rikthehem patjetër."</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, illo! Quasi voluptatibus debitis incidunt neque?</p>
                       </div>
                   </li>
                   <li>
                       <div className="slide">
                           <div className="user-info">
-                              <img src={user_2} alt="" />
+                              <img src="https://placehold.co/400x400/png" alt="" />
                               <div>
-                                  <h3>Elira Dervishi</h3>
-                                  <span>Mjeke Dermatologe</span>
+                                  <h3>Lorem, ipsum.</h3>
+                                  <span>Lorem.</span>
                               </div>
                           </div>
-                          <p>"Më pëlqeu shumë kujdesi i detajuar në trajtimet e fytyrës. Lëkura ime dukej më e freskët dhe e shëndetshme që pas seancës së parë."</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, illo! Quasi voluptatibus debitis incidunt neque?</p>
                       </div>
                   </li>
                   <li>
                       <div className="slide">
                           <div className="user-info">
-                              <img src={user_3} alt="" />
+                              <img src="https://placehold.co/400x400/png" alt="" />
                               <div>
-                                  <h3>Gentiana Hoxha</h3>
-                                  <span>Menaxher Biznesi</span>
+                                  <h3>Lorem, ipsum.</h3>
+                                  <span>Lorem.</span>
                               </div>
                           </div>
-                          <p>"Pas një jave të lodhshme pune, masazhi relaksues te Aura Spa është ilaçi më i mirë. Profesionalizëm dhe qetësi absolute."</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, illo! Quasi voluptatibus debitis incidunt neque?</p>
                       </div>
                   </li>
                   <li>
                       <div className="slide">
                           <div className="user-info">
-                              <img src={user_4} alt="" />
+                              <img src="https://placehold.co/400x400/png" alt="" />
                               <div>
-                                  <h3>Sara Shehu</h3>
-                                  <span>Fotografe</span>
+                                  <h3>Lorem, ipsum.</h3>
+                                  <span>Lorem.</span>
                               </div>
                           </div>
-                          <p>"Një vend perfekt për t’u përkujdesur për veten. Atmosfera e ngrohtë dhe shërbimet e personalizuara e bëjnë këtë spa ndryshe nga të tjerat."</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, illo! Quasi voluptatibus debitis incidunt neque?</p>
                       </div>
                   </li>
               </ul>

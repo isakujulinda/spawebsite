@@ -9,6 +9,7 @@ import Services from "../../Components/Services/Services"
 import Testimonials from "../../Components/Testimonials/Testimonials"
 import Title from "../../Components/Title/Title"
 import HartaHome from "../../Components/HartaHome/HartaHome"
+import Faq from "../../Components/FAQ/faq"
 
 
 
@@ -18,16 +19,17 @@ const Home = () => {
       <Navbar />
       <Hero />
       <div className="container">
-        <Title subTitle='Shërbimet tona'  title='Çfarë ne ofrojmë' />
+        <Title title='Tittle' />
         <Services />
         <About />
-        <Title  title='Galeria' />
+        <Title  title='Tittle' />
       </div>
       <Gallery />
-      <Title  title='Vlerësime nga klientet' />
-      <Testimonials />
-      <HartaHome />
-      {/* <Contact /> */}
+      {/* <Title  title='Vlerësime nga klientet' />
+      <Testimonials /> */}
+      <Faq />
+      {/* <HartaHome /> */}
+      <Contact />
       <Footer />
     </div>
   )

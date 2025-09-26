@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
-import logo from "../../assets/images/aura (2).png";
+// import logo from "../../assets/images/aura (2).png";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <nav className={`container ${sticky ? "dark-nav" : ""}`}>
-      <img src={logo} alt="Logo" className="logo" />
+      <img src="https://placehold.co/300x200/png" alt="Logo" className="logo" />
 
       <div className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
         {menuOpen ? "✖" : "☰"}
@@ -27,7 +27,7 @@ const Navbar = () => {
         <li><Link to="/rreth">Rreth Nesh</Link></li>
         <li><Link to="/sherbime">Shërbimet</Link></li>
         <li><Link to="/blog">Blog</Link></li>
-        <li className="nav-btn"><Link to="/kontakto">Kontakto Tani</Link></li>
+        <li className="nav-btn"><Link to="/kontakto">Kontakto </Link></li>
       </ul>
 
       <ul className={menuOpen ? "mobile-overlay active" : "mobile-overlay"}>

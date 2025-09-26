@@ -5,8 +5,8 @@ function HeroSh() {
   return (
       <div className='herosh container'>
           <div className="herosh-text">
-              <h1>Sherbimet Tona</h1>
-              <p>Çdo seancë është e personalizuar për nevojat tuaja, duke ju dhënë jo vetëm relaks, por edhe energji të re. Zgjidh trajtimin që i përshtatet nevojave tuaja</p>
+              <h1>Lorem, ipsum dolor.</h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus omnis ad eius corrupti nemo sint?</p>
           </div>
       
     </div>

@@ -10,7 +10,7 @@ const Sherbime = () => {
           <Navbar />
           <HeroSh />
       <Sherbimettxt />
-      <Title  title='Vleresime nga klientet' />
+      <Title  title='Tittle' />
       <Testimonials />
       <Footer />
       </div>
